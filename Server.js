@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const express = require('express');
 const cors = require('cors');
 const bodyParser = require('body-parser');
-const MenuItem = require('./models/MenuItem');
+const MenuItem = require('./MenuItem');
 
 const app = express();
 app.use(cors());
